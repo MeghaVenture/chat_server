@@ -18,7 +18,7 @@ FORMAT = "utf-8"
 MAX_MSG_SIZE = 1024     # HEADER instead?
 DISCONNECT_CODE = "!<!<!DISCONNECT!>!>!"
 
-identifier = uuid.uuid4()
+identifier = hex(uuid.uuid4())
 client_name = input("Enter your name: ")
 
 # CONNECT TO SERVER
@@ -32,33 +32,33 @@ client_socket.connect(START_ADDRESS)
 def receive():
     while True:
         try:
-            message = client.recv(MAX_MSG_SIZE).decode(FORMAT)
+            message = client_socket.recv(MAX_MSG_SIZE).decode(FORMAT)
             if message == "client_name?":
-                client.send(client_name.encode(FORMAT))
+                client_socket.send(client_name).encode(FORMAT)
             elif message == "Identifier?":
-                client.send(identifier.encode(FORMAT))
-                unique_code = client.recv(MAX_MSG_SIZE).decode(FORMAT)
+                client_socket.send(identifier).encode(FORMAT)
+                unique_code = client_socket.recv(MAX_MSG_SIZE).decode(FORMAT)
                 switch_port(identifier, unique_code, message)
             elif message == 'id_code_pair?':
                 id_code_pair = (identifier, unique_code)
-                client.send(id_code_pair.encode(FORMAT))
+                client_socket.send(id_code_pair.encode(FORMAT))
             else:
                 print(message)
-        except:
-            print(f"[FATAL ERROR] you have been disconnected from the SERVER.")
-            client.send(DISCONNECT_CODE)
-            client.close()
-            break
+        #except:
+        #    print(f"[FATAL ERROR] you have been disconnected from the SERVER.")
+         #   client_socket.send(DISCONNECT_CODE)
+         #   client_socket.close()
+         #   break
 
 
 def switch_port(new_address):
-    client.send(DISCONNECT_CODE)
-    client.connect(new_address)
+    client_socket.send(DISCONNECT_CODE)
+    client_socket.connect(new_address)
 
 
 def send():
     message = input("")
-    client.send(message.encode(FORMAT))
+    client_socket.send(message.encode(FORMAT))
 
 
 # RECEIVE THREAD

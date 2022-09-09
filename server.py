@@ -75,7 +75,7 @@ def make_unique_code(identifier):
     finally:
         unique_code = code
         idens_and_codes.append((identifier, unique_code))
-        log_list(idens_and_codes)
+        log_lists(idens_and_codes)
     return unique_code
 
 
