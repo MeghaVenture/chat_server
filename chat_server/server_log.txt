@@ -1,0 +1,27 @@
+[SERVER STARTED] 2022-September-09_21:28:24 | <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> running... /n[LISTENING] 2022-September-09_21:28:24 | <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> is listening... /n[SERVER STARTED] 2022-September-09_21:36:55 | <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> running... /n[LISTENING] 2022-September-09_21:36:55 | <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> is listening... /n[SERVER STARTED] 2022-September-09_21:41:34 | <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> running... 
+[LISTENING] 2022-September-09_21:41:34 | <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 8000)> is listening... 
+[SERVER STARTED] 2022-September-09_21:47:37 | <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 5050)> running... 
+[LISTENING] 2022-September-09_21:47:37 | <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 5050)> is listening... 
+[SERVER STARTED] 2022-September-09_21:53:39 | <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 5050)> running... 
+[LISTENING] 2022-September-09_21:53:39 | <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.87', 5050)> is listening... 
+[SERVER STARTED] 2022-09-09_22:04:50 | ('192.168.0.87', 5050) running... 
+[SERVER STARTED] 2022/09/09_22:19:36 | ('192.168.0.87', 5050) running. 
+[SERVER STARTED] 2022/09/09_22:48:34 | ('192.168.0.87', 5050) running. 
+[LISTENING] 2022/09/09_22:48:34 | ('192.168.0.87', 5050) is listening. 
+[SERVER STARTED] 2022/09/09_22:52:14 | ('192.168.0.87', 5050) running. 
+[LISTENING] 2022/09/09_22:52:14 | ('192.168.0.87', 5050) is listening. 
+[SERVER STARTED] 2022:09:09_23:21:08 | ('192.168.0.87', 5050) running. 
+[LISTENING] 2022:09:09_23:21:08 | ('192.168.0.87', 5050) is listening. 
+[SERVER STARTED] 2022:09:09_23:25:49 | ('192.168.0.87', 60000) running. 
+[LISTENING] 2022:09:09_23:25:49 | ('192.168.0.87', 60000) is listening. 
+[SERVER STARTED] 2022:09:09_23:41:49 | ('192.168.0.87', 8000) running. 
+[LISTENING] 2022:09:09_23:41:49 | ('192.168.0.87', 8000) is listening. 
+[SERVER STARTED] 2022:09:10_00:04:22 | ('0.0.0.0', 8000) running. 
+[LISTENING] 2022:09:10_00:04:22 | ('0.0.0.0', 8000) is listening. 
+[SERVER STARTED] 2022:09:10_00:32:00 | ('0.0.0.0', 8000) running. 
+[LISTENING] 2022:09:10_00:32:00 | ('0.0.0.0', 8000) is listening. 
+2022:09:10_00:32:52 | ['m']: ['m'] 
+2022:09:10_00:32:52 | [<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 63887)>]: [<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 63887)>] 
+2022:09:10_00:35:33 | ['python client.py']: ['python client.py'] 
+[SERVER STARTED] 2022:09:10_00:39:43 | ('0.0.0.0', 8000) running. 
+[LISTENING] 2022:09:10_00:39:43 | ('0.0.0.0', 8000) is listening. 
